@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+@import 'reset.css';
+@import 'global.css';
+@import 'navigation.css';
+@import 'footer.css';
+@import 'login.css';
+@import 'explore.css';
+@import 'feed.css';
+@import 'profile.css';
+@import 'edit-profile.css';
+@import 'iphone.css';
+
+
+:root {
+    /* Primary theme colors */
+    --primary-color: #3897f0;
+    --background-color: #fafafa;
+    --text-color: #262626;
+    --accent-color: #f1356d;
+  }
+  
+  body {
+    background: var(--background-color);
+    color: var(--text-color);
+    font-family: 'Helvetica Neue', sans-serif;
+    margin: 0; padding: 0;
+  }
+  
+  a, .btn-primary {
+    color: var(--primary-color);
+  }
+  
+  button, .btn {
+    background: var(--accent-color);
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* smooth hover */ :contentReference[oaicite:2]{index=2}
+  }
+  
+  button:hover, .btn:hover {
+    background: var(--primary-color);
+  }
+  
